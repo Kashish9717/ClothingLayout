@@ -17,6 +17,8 @@ const Navbar = ({ cartCount }) => {
         {/* Navigation Links */}
         <div className="hidden md:flex items-center space-x-10 text-[13px] font-bold tracking-widest text-gray-600">
           <Link to="/" className="hover:text-rose-500 transition">HOME</Link>
+
+          {/* About Us */}
           <Link to="/about" className="hover:text-rose-500 transition">ABOUT US</Link>
           
           {/* Products Dropdown */}
